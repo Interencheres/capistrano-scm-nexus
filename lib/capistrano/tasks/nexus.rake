@@ -6,6 +6,7 @@ namespace :nexus do
   desc 'Download the nexus artifact'
   task :download do
     on release_roles :all do
+      execute :mkdir, '-p', repo_path
       within repo_path do
         strategy.download
       end
