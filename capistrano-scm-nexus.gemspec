@@ -6,6 +6,7 @@ require "capistrano_scm_nexus/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name = "capistrano_scm_nexus"
+  s.summary = "SCM nexus for capv3"
   s.version = CapistranoSCMNexus::VERSION
   s.authors = ["Interencheres (forked from Jen Page)"]
   s.email = ["dt@cpmultimedia.com"]
